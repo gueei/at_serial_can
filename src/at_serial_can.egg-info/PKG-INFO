@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: at-serial-can
-Version: 1.0.0
+Version: 1.0.1
 Summary: AT Command Style Serial to CAN interface modules
 Home-page: https://github.com/gueei/at_serial_can
 Author: Andy Tsui

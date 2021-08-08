@@ -2,6 +2,8 @@ LICENSE
 README.md
 pyproject.toml
 setup.cfg
+src/at_serial_can/__init__.py
+src/at_serial_can/at_serial_can.py
 src/at_serial_can.egg-info/PKG-INFO
 src/at_serial_can.egg-info/SOURCES.txt
 src/at_serial_can.egg-info/dependency_links.txt
