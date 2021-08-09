@@ -88,7 +88,7 @@ class ATSerialBus(BusABC):
         self._send_config_command('CAN_MODE', 1 if loopback else 0)
 
     def set_can_baudrate(self, bitrate):
-        self._send_config_command("CAND_BAUD", bitrate)
+        self._send_config_command("CAN_BAUD", bitrate)
 
     def _send_config_command(self, param, value):
         if not self._config_mode:
