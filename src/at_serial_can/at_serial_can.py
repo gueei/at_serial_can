@@ -130,8 +130,6 @@ class ATSerialBus(BusABC):
             # Timed out
             return None, False
 
-        print(self._buffer)
-
         # byte 0:1 AT
         # byte 2:5 ID
         # byte 6 DLC
